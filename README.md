@@ -1,5 +1,5 @@
 *SQUAD 39
-*Bruce (Vice-Líder) - Diego - Lucas - Kalberis - Kenneth (Líder) - Mateus - Rebeca - Tiago Vieira - Thiago Machado
+*Bruce (Vice-Líder) - Diego - Lucas - Kalberis - Kenneth (Líder) - Marco - Mateus - Rebeca - Tiago Vieira - Thiago Machado
 *PCDS
 
 1. Considerando o desafio escolhido, qual é o problema a ser resolvido e que será contemplado com o projeto final?
