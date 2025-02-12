@@ -20,28 +20,65 @@
     ></script>
   </head>
   <body>
+    <!----------------------------------------- BARRA TOPO --------------------------------------------------------------->
     <header>
-      <nav>
-        <ul>
+      <nav
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          height: 170px;
+        "
+      >
+        <div style="width: auto; height: auto; margin-left: 30px">
           <a href="index.html"
-            ><img src="img/logo1.png" class="img-fluid" alt="logo_site"
+            ><img
+              style="width: auto; max-width: 240px"
+              src="img/logo1.png"
+              alt="logo_site"
           /></a>
-          <li><a href="index.html">Inicio</a></li>
-          <!--
+        </div>
+
+        <div
+          class="container-fluid"
+          style="
+            color: black;
+            border: none;
+            box-shadow: none;
+            font-family: 'Courier New', Courier, monospace;
+          "
+        >
+          <h1>
+            <strong> Conectando você ao que te faz se sentir em casa </strong>
+          </h1>
+        </div>
+
+        <!--
+          <ul>
+            <li><a href="index.html">Inicio</a></li>          
+          -->
+        <!--
             <li><a href="parceiros.html">Parceiros</a></li>
           -->
-            <!--
+        <!--
           <li><a href="parceiros.html">Soluções</a></li>
-            -->
-          
+            
         </ul>
+        -->
       </nav>
-      <nav class="navbar " id="cadastro" style="background-color: black; border-radius: 10px;">
+      <nav
+        class="navbar"
+        id="cadastro"
+        style="background-color: black; border-radius: 10px"
+      >
         <div class="container-fluid">
-          <a style="color: white;" class="navbar-brand" href="cadastro.html">Seja um parceiro</a>
+          <a style="color: white" class="navbar-brand" href="#.html"
+            >Seja um parceiro</a
+          >
         </div>
       </nav>
     </header>
+    <!---------------------------------------FIM BARRA SUPERIOR ------------------------------------------------------------>
 
     <div class="container-fluid">
 
@@ -91,7 +128,7 @@
     <footer>
       <p>
         &copy; RECODE PRO IA 2025 | PCDs - Inclusão e Acessibilidade | Todos os
-        direitos reservados | <button id="sobre_nos"><a href="#.html">Sobre nós</a></button>
+        direitos reservados | <button id="sobre_nos"><a href="sobre.html">Sobre nós</a></button>
       </p>
       <div class="botoes">
         <button id="aumentar-texto">Aumentar Fonte</button>

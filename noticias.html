@@ -21,27 +21,65 @@
     ></script>
   </head>
   <body>
+    <!----------------------------------------- BARRA TOPO --------------------------------------------------------------->
     <header>
-      <nav>
-        <ul>
+      <nav
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          height: 170px;
+        "
+      >
+        <div style="width: auto; height: auto; margin-left: 30px">
           <a href="index.html"
-            ><img src="img/logo1.png" class="img-fluid" alt="logo_site"
+            ><img
+              style="width: auto; max-width: 240px"
+              src="img/logo1.png"
+              alt="logo_site"
           /></a>
-          <li><a href="index.html">Inicio</a></li>
-          <!--
+        </div>
+
+        <div
+          class="container-fluid"
+          style="
+            color: black;
+            border: none;
+            box-shadow: none;
+            font-family: 'Courier New', Courier, monospace;
+          "
+        >
+          <h1>
+            <strong> Conectando você ao que te faz se sentir em casa </strong>
+          </h1>
+        </div>
+
+        <!--
+          <ul>
+            <li><a href="index.html">Inicio</a></li>          
+          -->
+        <!--
             <li><a href="parceiros.html">Parceiros</a></li>
           -->
-          <!--
+        <!--
           <li><a href="parceiros.html">Soluções</a></li>
-            -->
+            
         </ul>
+        -->
       </nav>
-      <nav class="navbar " id="cadastro" style="background-color: black; border-radius: 10px;">
+      <nav
+        class="navbar"
+        id="cadastro"
+        style="background-color: black; border-radius: 10px"
+      >
         <div class="container-fluid">
-          <a style="color: white;" class="navbar-brand" href="#.html">Seja um parceiro</a>
+          <a style="color: white" class="navbar-brand" href="#.html"
+            >Seja um parceiro</a
+          >
         </div>
       </nav>
     </header>
+    <!---------------------------------------FIM BARRA SUPERIOR ------------------------------------------------------------>
 
     <div class="container-fluid">
       <section id="sobre">
@@ -53,48 +91,70 @@
       </section>
       <div class="row">
         <div class="col-md-2">
+          <!------------------------------------------- BARRA LATERAL ------------------------------------------------------------>
           <aside>
-            <nav>
-              <ul>
-                <li><h4>Últimas Notícias</h4></li>
-                <ul>
-                  <li>
-                    <p>
-                      <a class="links" href="#"
-                        >Novo projeto de acessibilidade na cidade</a
-                      >
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <a class="links" href="#"
-                        >Inclusão digital para pessoas com deficiência visual</a
-                      >
-                    </p>
-                  </li>
-                </ul>
-              </ul>
-              <ul>
-                <li><h4>Recursos</h4></li>
-                <ul>
-                  <li>
-                    <p>
-                      <a class="links" href="leitor_tela.html"
-                        >Leitor de tela gratuitos</a
-                      >
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <a class="links" href="#"
-                        >Ferramentas de acessibilidade para sites</a
-                      >
-                    </p>
-                  </li>
-                </ul>
-              </ul>
+            <nav
+              class="container"
+              style="background-color: brown; margin-left: 8px"
+            >
+              <section>
+                <h4>
+                  <a style="color: black" href="noticias.html"
+                    >Últimas Notícias</a
+                  >
+                </h4>
+                <article
+                  style="
+                    background-color: brown;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                  "
+                >
+                  <a class="links" href="#"
+                    >Novo projeto de acessibilidade na cidade</a
+                  >
+                </article>
+                <article
+                  style="
+                    background-color: brown;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                  "
+                >
+                  <a class="links" href="#"
+                    >Inclusão digital para pessoas com deficiência visual</a
+                  >
+                </article>
+              </section>
+
+              <section>
+                <h4><a style="color: black" href="#.html">Recursos</a></h4>
+                <article
+                  style="
+                    background-color: brown;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                  "
+                >
+                  <a class="links" href="leitor_tela.html"
+                    >Leitor de tela gratuitos</a
+                  >
+                </article>
+                <article
+                  style="
+                    background-color: brown;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                  "
+                >
+                  <a class="links" href="#"
+                    >Ferramentas de acessibilidade para sites</a
+                  >
+                </article>
+              </section>
             </nav>
           </aside>
+          <!-------------------------------------- FIM BARRA LATERAL ---------------------------------------------------------->
         </div>
         <div class="col-md-10">
           <section>

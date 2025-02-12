@@ -12,6 +12,6 @@ document.getElementById("diminuir-texto").addEventListener("click", function() {
     let currentFontSize = window.getComputedStyle(body).fontSize;
     currentFontSize = parseFloat(currentFontSize);
 
-    // Aumenta a fonte
+    // Diminui a fonte
     body.style.fontSize = (currentFontSize / 1.2) + "px";
 });
