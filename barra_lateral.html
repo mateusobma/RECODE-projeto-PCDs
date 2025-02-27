@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conscientização sobre o conceito de pessoa com deficiência (PCD), promovendo a inclusão e acessibilidade para todos."
+    />
+    <title>Espaços PCDs</title>
+
+    <script src="assets/js/index.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!------------------------------------------- INÍCIO ----------------------------------------------------------------->
+  <body>
+    <!----------------------------------------- BARRA TOPO --------------------------------------------------------------->
+    <header>
+      <nav
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          height: 170px;
+        "
+      >
+        <div style="width: auto; height: auto; margin-left: 30px">
+          <a href="index.html"
+            ><img
+              style="width: auto; max-width: 240px"
+              src="img/logo1.png"
+              alt="logo_site"
+          /></a>
+        </div>
+
+        <div
+          class="container-fluid"
+          style="
+            color: black;
+            border: none;
+            box-shadow: none;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2vw;
+            justify-content: center;
+          "
+        >
+          <strong> Conectando você ao que te faz se sentir em casa </strong>
+        </div>
+      </nav>
+      <nav
+        class="navbar"
+        id="cadastro"
+        style="background-color: black; border-radius: 10px"
+      >
+        <div class="container-fluid">
+          <ul>
+            <li>
+              <a style="color: white" class="navbar-brand" href="cadastro.html"
+                >Seja um parceiro</a
+              >
+            </li>
+            <li>
+              <a style="color: white" class="navbar-brand" href="parceiros.html"
+                >Parceiros</a
+              >
+            </li>
+            <li>
+              <a style="color: white" class="navbar-brand" href="solucoes.html"
+                >Soluções</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!---------------------------------------FIM BARRA SUPERIOR ------------------------------------------------------------>
+
+    <!---------------------------------------TENTANDO COPIAR BARRA LATERAL ------------------------------------------------------------>
+
+    <section class="menu_flutuante" style="position: absolute; top: 500px; display: flex; flex-flow: column; background-color: aquamarine;">
+      <nav>
+        <ul>
+          <a
+            href="https://www.diariooficial.famem.org.br/acessibilidade/acessibilidade/"
+          >
+            <li class="flutuante_libras" data-href="#home">
+              <div class="barra-vlibras">
+                <img
+                  src="https://www.diariooficial.famem.org.br/assets/000000/images/libras.png"
+                  alt=""
+                />
+                <span>VLibras</span>
+                <span id="barra-brasil-vlibras">
+                  <span class="barra-link-vlibras">
+                    <img
+                      src="https://barra.brasil.gov.br/imagens/vlibras.gif"
+                    />&nbsp;<br />O conteúdo desse portal pode ser acessível em
+                    Libras usando o VLibras.
+                  </span>
+                </span>
+              </div>
+            </li>
+          </a>
+
+          <li class="flutuante_servicos iconflutfw-sistema">
+            <i class="fas fa-adjust"></i>
+            <span
+              ><a
+                href="#altocontraste"
+                accesskey="3"
+                onclick="window.toggleContrast()"
+                onkeydown="window.toggleContrast()"
+                >Alto contraste [Alt + 3]</a
+              >
+            </span>
+          </li>
+          <a href="https://www.diariooficial.famem.org.br/">
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </li>
+          </a>
+          <a href="https://www.diariooficial.famem.org.br/dom/dom/todasEdicoes">
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fa fa-book" aria-hidden="true"></i>
+              <span>Todas as edições</span>
+            </li>
+          </a>
+
+          <a
+            href="https://www.diariooficial.famem.org.br/dom/dom/todasPublicacoes"
+          >
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <span>Publicações</span>
+            </li>
+          </a>
+          <a href="https://www.diariooficial.famem.org.br/dom/dom/calendario">
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <span>Calendário</span>
+            </li>
+          </a>
+
+          <a href="https://www.diariooficial.famem.org.br/dom/dom/adesao">
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <span>Adesão municipal</span>
+            </li>
+          </a>
+          <a href="https://www.diariooficial.famem.org.br/dom/dom/normas">
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fa fa-upload" aria-hidden="true"></i>
+              <span>Normas de envio</span>
+            </li>
+          </a>
+          <a href="https://www.diariooficial.famem.org.br/dom/dom/oquepublicar">
+            <li class="flutuante_servicos iconflutfw" data-href="#home">
+              <i class="fas fa-pencil-alt"></i>
+              <span>O que e onde publicar</span>
+            </li>
+          </a>
+          <a target="_blank" href="https://painel.siganet.net.br">
+            <li class="flutuante_servicos iconflutfw-sistema" data-href="#home">
+              <i class="fa fa-lock" aria-hidden="true"></i>
+              <span>Sistema</span>
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </section>
+
+    <!----------------------------------- FIM TENTANDO COPIAR BARRA LATERAL ------------------------------------------------------------>
+
+    <footer>
+      <p>
+        &copy; RECODE PRO IA 2025 | PCDs - Inclusão e Acessibilidade | Todos os
+        direitos reservados |
+        <button id="sobre_nos"><a href="sobre.html">Sobre nós</a></button>
+      </p>
+      <div class="botoes">
+        <button id="aumentar-texto">Aumentar Fonte</button>
+        <button id="diminuir-texto">Diminuir Fonte</button>
+      </div>
+      <script src="assets/js/index.js"></script>
+    </footer>
+  </body>
+</html>
